@@ -1,4 +1,4 @@
-package Topic2.Excercise3;
+package Excercise3;
 import java.util.ArrayList;
 import java.util.Scanner;
 /**

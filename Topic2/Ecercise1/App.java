@@ -1,4 +1,4 @@
-package Topic2.Ecercise1;
+package Ecercise1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
