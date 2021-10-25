@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 public class Excersice2 {
 
     public static void main(String[] args) {
-        // Scanner Object
+        // Scanner Objects
         Scanner inText = new Scanner(System.in);
 
         // IC_Arr ArrayList declaration
