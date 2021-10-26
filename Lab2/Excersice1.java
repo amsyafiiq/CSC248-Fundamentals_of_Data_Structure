@@ -7,7 +7,7 @@ public class Excersice1 {
         // Input Object Declaration
         Scanner inNum = new Scanner(System.in);
 
-        // numArr ArrayList Declaration
+        // numArr ArrayList Declarations
         ArrayList<Integer> numArr = new ArrayList<Integer>();
         numArr.addAll(Arrays.asList(16, 1, 77, 5, 2, 77)); // Add initial value to the ArrayList
 
