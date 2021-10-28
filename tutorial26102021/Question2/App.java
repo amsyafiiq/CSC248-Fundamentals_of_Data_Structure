@@ -1,24 +1,26 @@
 package Question2;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class App {
     public static void main(String[] args){
         Scanner inNum = new Scanner(System.in);
         
-        Rectangle rec;
+        ArrayList<Rectangle> rects = new ArrayList<Rectangle>();
+        
         System.out.print("Enter Width >> ");
         double width = inNum.nextDouble();
         System.out.print("Enter Length >> ");
         double length = inNum.nextDouble();
-        rec = new Rectangle(width, length);
+        rects.add(new Rectangle(width, length));
         inNum.close();
 
-        System.out.println("Area before changes: " + rec.calcArea());
-        rec.setWidth(4.5);
-        System.out.println("Area after changes: " +  rec.calcArea());
+        System.out.println("Area before changes: " + rects.get(0).calcArea());
+        rects.get(0).setWidth(4.5);
+        System.out.println("Area after changes: " +  rects.get(0).calcArea());
 
-        System.out.println(rec.toString());
+        System.out.println(rects.toString());
     }
     
 }
