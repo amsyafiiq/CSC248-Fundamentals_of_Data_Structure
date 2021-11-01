@@ -47,7 +47,7 @@ public class LecturerApp {
                 }
             }
         }
-        System.out.println("After Sorting: " + lectArr.toString());
+        System.out.println("After Sorting: \n" + lectArr.toString());
         System.out.println();
 
         System.out.println("Lecturer details with name Yusuf:-");
@@ -80,7 +80,7 @@ public class LecturerApp {
                 }
             }
         }
-        System.out.println("After Sorting Based on Grade and Name: " + lectArr.toString());
+        System.out.println("After Sorting Based on Grade and Name: \n" + lectArr.toString());
         System.out.println();
     }
 }
