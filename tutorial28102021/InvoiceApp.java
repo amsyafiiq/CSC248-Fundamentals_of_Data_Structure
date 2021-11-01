@@ -11,8 +11,9 @@ public class InvoiceApp {
         ArrayList<Invoice> invoice = new ArrayList<Invoice>();
         
         // User input data
-        final int SIZE = 6;  // For loop itteration
+        final int SIZE = 3;  // For loop itteration
         for (int i = 0; i < SIZE; i++) {
+            System.out.println("Invoice: " +  (i + 1));
             System.out.print("Order ID >> ");
             int orderID = inNum.nextInt();
             System.out.print("Customer Name >> ");
@@ -23,6 +24,7 @@ public class InvoiceApp {
             int prodQuantity = inNum.nextInt();
             System.out.print("Unit Price >> ");
             double unitPrice = inNum.nextDouble();
+            System.out.println();
 
             invoice.add(new Invoice(orderID, custName, prodName, prodQuantity, unitPrice));
         }
@@ -35,7 +37,8 @@ public class InvoiceApp {
                 count++;
             }
         }
-        System.out.println("\nTOTAL: " + count);
+        System.out.println("Total Invoice with unit price is more than RM 5000: " + count);
+        System.out.println();
 
         ArrayList<Double> payment = new ArrayList<Double>();
         for (int i = 0; i < invoice.size(); i++) {

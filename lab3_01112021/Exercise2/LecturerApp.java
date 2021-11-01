@@ -13,7 +13,7 @@ public class LecturerApp {
         ArrayList<Lecturer> lectArr = new ArrayList<Lecturer>();
 
         for (int i = 0; i < 5; i++) {
-            System.out.println("Lecturer " + i + 1);
+            System.out.println("Lecturer " + (i + 1));
             System.out.print("Enter Name >> ");
             String name = inText.nextLine();
             System.out.print("Enter Staff ID >> ");
