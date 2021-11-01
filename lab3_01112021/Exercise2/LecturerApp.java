@@ -83,5 +83,4 @@ public class LecturerApp {
         System.out.println("After Sorting Based on Grade and Name: " + lectArr.toString());
         System.out.println();
     }
-    
 }
