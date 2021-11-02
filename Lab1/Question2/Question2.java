@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Question2 {
     public static void main (String[] args) {
-        Scanner inText = new Scanner(System.in);
+        //Scanner inText = new Scanner(System.in);
         Scanner inNum = new Scanner(System.in);
         
         int intArray[] = new int[10];
@@ -16,7 +16,8 @@ public class Question2 {
             intArray[i] = inNum.nextInt();
         }
         System.out.println("-- Data Saved --\n");
-        
+        inNum.close();
+
         // Display the third value of an array
         System.out.println("The third value in the array is " + intArray[2]);
         

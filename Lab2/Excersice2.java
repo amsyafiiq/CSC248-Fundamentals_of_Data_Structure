@@ -26,9 +26,9 @@ public class Excersice2 {
         for(int i = 0; i < IC_Arr.size(); i++) {
             // Seperate each tokens from the IC Number
             StringTokenizer st = new StringTokenizer(IC_Arr.get(i), "-");
-            String birthdate = st.nextToken();
+            st.nextToken();
             String state = st.nextToken();
-            String uniqueID = st.nextToken();
+            st.nextToken();
 
             // Count and display IC Number for person from Pahang
             if (state.equals("06")) {
