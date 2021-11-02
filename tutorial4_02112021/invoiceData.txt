@@ -1,0 +1,6 @@
+1113;Muhammad Syamel Bin Ahmad Razak;Shampoo Kao;128;6.7
+2212;Juliana Binti Mohd Yusoff;Baby Towel Tomei;100;12.5
+1114;Muhammad Rizal Bin Razak;Shower Gel Rose;189;7.8
+1116;Salmah Binti Mohd Salleh;Face Powder Pinky;79;45.6
+2218;Afiqah Binti Karim;Woman Sandal Lelembut;30;27.9
+1118;Ismail Bin Haji Othman;Bath Gel Selesa;173;19.9

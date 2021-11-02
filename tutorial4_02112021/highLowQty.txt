@@ -1,0 +1,6 @@
+Lowest Product Quantity: 30
+Order Details: Order ID: 2218; Customer Name: Afiqah Binti Karim; Product Name: Woman Sandal Lelembut; Product Quantity: 30; Unit Price: 27.9
+
+Highest Product Quantity: 189
+Order Details: Order ID: 1114; Customer Name: Muhammad Rizal Bin Razak; Product Name: Shower Gel Rose; Product Quantity: 189; Unit Price: 7.8
+

@@ -1,6 +1,3 @@
-/**
- * Invoice
- */
 public class Invoice {
     private int orderID, prodQuantity;
     private String custName, prodName;
@@ -21,11 +18,10 @@ public class Invoice {
     public double getUnitPrice() {return unitPrice;}
 
     public String toString() {
-        return ("Invoice Information:-\n"
-              + "Order ID: " + orderID + "\n"
-              + "Customer Name: " + custName + "\n"
-              + "Product Name: " + prodName + "\n"
-              + "Product Quantity: " + prodQuantity + "\n"
-              + "Unit Price: " + unitPrice);
+        return ("Order ID: " + orderID + "; "
+              + "Customer Name: " + custName + "; "
+              + "Product Name: " + prodName + "; "
+              + "Product Quantity: " + prodQuantity + "; "
+              + "Unit Price: " + unitPrice + "\n");
     }
 }
