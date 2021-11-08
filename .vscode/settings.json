@@ -1,12 +1,12 @@
 {
     "java.project.sourcePaths": [
-        "Lab2",
         "Lab1",
-        "Topic2",
+        "Lab2",
+        "lab3_01112021",
+        "topic3_08112021",
         "tutorial26102021",
         "tutorial28102021",
-        "lab3_01112021",
         "tutorial4_02112021",
-        "topic3_08112021"
+        "Topic2_21102021"
     ]
 }

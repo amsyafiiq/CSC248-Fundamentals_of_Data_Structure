@@ -1,10 +1,8 @@
-package Excercise3;
+
 import java.util.ArrayList;
 import java.util.Scanner;
-/**
- * App
- */
-public class App {
+
+public class Exercise2 {
     public static void main(String[] args){
         Scanner inNum = new Scanner(System.in);
         ArrayList<Float> floatList = new ArrayList<Float>();

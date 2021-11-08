@@ -1,3 +1,5 @@
+# Lab Session 3 | 1 November 2021
+
 ## Exercise 1
 
 Given the following `Invoice` ADT:-
