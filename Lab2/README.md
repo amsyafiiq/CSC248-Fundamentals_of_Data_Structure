@@ -1,6 +1,6 @@
 # Lab Session 2 | 25 October 2021
 
-## Question 1
+## Exercise 1
 Write a coding that will:-
 1. Declare the `ArrayList` of `Integer` data type named `numArr`.
 2. Add the value of `16, 1, 77, 5, 2, 77` into the array.
@@ -14,7 +14,7 @@ Write a coding that will:-
 10. Display the content of `numArr` and `evenArr`.
 11. Sort the value of `evenArr` using insertion sort and display the sorted value.
 
-## Question 2
+## Exercise 2
 Write a coding that will:-
 1. Declare the `String` `ArrayList` named `IC_Arr`.
 2. Input 10 IC Number into an `IC_Arr` by using the format with dash (`"888888-88-8888"`).
