@@ -6,7 +6,9 @@ Write a `Java` program for the following process:-
 
 * Create 2 `ArrayList` named `aList` and `sList`.
 * Insert the following numbers and store them into `aList`.
+--------------------
 12 | 78 | 1 | 7 | 90
+--------------------
 * Replace element at location `3` with `100`.
 * Remove all numbers that can be devided by 3 from `aList` and store them into `sList`.
 * Display the contents of teh `aList` and `sList`.
