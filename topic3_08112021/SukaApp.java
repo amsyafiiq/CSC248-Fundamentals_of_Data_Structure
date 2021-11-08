@@ -4,10 +4,10 @@
 public class SukaApp {
 
     public static void main(String[] args) {
-        Node<String> head, tail, current = null;
+        Node<String> head, current = null;
 
         Node<String> node = new Node<>("A");
-        head = tail = node; // head = tail = node = "A"
+        head = node; // head = tail = node = "A"
 
         node = new Node<>("K"); // node = "K"
         node.next = head;       // node.next = "A"
