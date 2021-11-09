@@ -6,6 +6,9 @@ Basic ArrayList implementation
 ## Topic2_21102021
 Basic ArrayList implementation
 
+## Lab 3
+ArrayList with user defined objects
+
 ## Tutorial26102021
 ArrayList with user defined objects
 
