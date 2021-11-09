@@ -1,7 +1,7 @@
 Sorted List:
 Order ID: 2212; Customer Name: Juliana Binti Mohd Yusoff; Product Name: Baby Towel Tomei; Product Quantity: 100; Unit Price: 12.5
-Order ID: 1114; Customer Name: Muhammad Rizal Bin Razak; Product Name: Shower Gel Rose; Product Quantity: 189; Unit Price: 7.8
-Order ID: 1113; Customer Name: Muhammad Syamel Bin Ahmad Razak; Product Name: Shampoo Kao; Product Quantity: 128; Unit Price: 6.7
-Order ID: 2218; Customer Name: Afiqah Binti Karim; Product Name: Woman Sandal Lelembut; Product Quantity: 30; Unit Price: 27.9
-Order ID: 1116; Customer Name: Salmah Binti Mohd Salleh; Product Name: Face Powder Pinky; Product Quantity: 79; Unit Price: 45.6
 Order ID: 1118; Customer Name: Ismail Bin Haji Othman; Product Name: Bath Gel Selesa; Product Quantity: 173; Unit Price: 19.9
+Order ID: 1116; Customer Name: Salmah Binti Mohd Salleh; Product Name: Face Powder Pinky; Product Quantity: 79; Unit Price: 45.6
+Order ID: 1113; Customer Name: Muhammad Syamel Bin Ahmad Razak; Product Name: Shampoo Kao; Product Quantity: 128; Unit Price: 6.7
+Order ID: 1114; Customer Name: Muhammad Rizal Bin Razak; Product Name: Shower Gel Rose; Product Quantity: 189; Unit Price: 7.8
+Order ID: 2218; Customer Name: Afiqah Binti Karim; Product Name: Woman Sandal Lelembut; Product Quantity: 30; Unit Price: 27.9

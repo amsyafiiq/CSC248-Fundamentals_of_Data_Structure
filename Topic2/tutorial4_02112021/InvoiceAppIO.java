@@ -8,9 +8,9 @@ import java.util.StringTokenizer;
 
 public class InvoiceAppIO {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("tutorial4_02112021/invoiceData.txt"));
-        PrintWriter pw = new PrintWriter(new FileWriter("tutorial4_02112021/highLowQty.txt"));
-        PrintWriter pw2 = new PrintWriter(new FileWriter("tutorial4_02112021/sortProduct.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("Topic2/tutorial4_02112021/invoiceData.txt"));
+        PrintWriter pw = new PrintWriter(new FileWriter("Topic2/tutorial4_02112021/highLowQty.txt"));
+        PrintWriter pw2 = new PrintWriter(new FileWriter("Topic2/tutorial4_02112021/sortProduct.txt"));
 
         ArrayList<Invoice> invoiceList = new ArrayList<Invoice>();
 
@@ -50,8 +50,8 @@ public class InvoiceAppIO {
         pw.close();
 
         for (int i = 0; i < invoiceList.size(); i++) {
-            for (int j = 1; j < i; j++) {
-                if (invoiceList.get(j - 1).getCustName().compareToIgnoreCase(invoiceList.get(j).getCustName()) > 0) {
+            for (int j = 1; j < invoiceList.size(); j++) {
+                if (invoiceList.get(j - 1).getProdName().compareToIgnoreCase(invoiceList.get(j).getProdName()) > 0) {
                     Invoice temp = invoiceList.get(j - 1);
                     invoiceList.set(j - 1, invoiceList.get(j));
                     invoiceList.set(j, temp);

@@ -1,4 +1,4 @@
-public class Question1 {
+public class Question {
     
     public static void main(String[] args) {
         //1. Initialize the given value into an array named arrayNump[]: 40.2, 5.8, 8.92, 10.56, 3.15, 7.99
