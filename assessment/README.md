@@ -1,6 +1,7 @@
 # CSC248 Assessment
+Assessment codes will be visible after marked by lecturer.
 
-## Assessment 1 | 10 November 2021 | __Not Marked__
+## Assessment 1 | 10 November 2021 (Not Marked)
 ArrayList with user defined object and file input output.
 
-_Marks / 20_
+_Marks `--/ 20`_
