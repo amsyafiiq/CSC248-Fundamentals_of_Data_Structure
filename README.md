@@ -6,4 +6,4 @@ I hope it helps if someone find😂😂
 [_Topic 1 - Introduction to Database Structure_](../../tree/main/Topic1)  
 [_Topic 2 - ArrayList_](../../tree/main/Topic2)  
 [_Topic 3 - LinkedList_](../../tree/main/Topic3)  
-_Assessments_ - Will be updated after received the result
+[_Assessments_](../../tree/main/assessment)
