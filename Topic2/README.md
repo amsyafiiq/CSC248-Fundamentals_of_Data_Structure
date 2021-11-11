@@ -9,8 +9,5 @@ Basic ArrayList implementation
 ## Lab 3
 ArrayList with user defined objects
 
-## Tutorial26102021
-ArrayList with user defined objects
-
 ## Tutorial4_02112021
 ArrayList with java IO
