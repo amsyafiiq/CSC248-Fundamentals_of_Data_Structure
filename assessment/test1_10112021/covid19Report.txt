@@ -1,0 +1,16 @@
+Perlis: 354
+Putrajaya: 1296
+Labuan: 2439
+Terengganu: 3941
+Pahang: 4854
+Melaka: 7053
+Kedah: 9319
+Kelantan: 10199
+Perak: 14225
+Negeri 9: 18102
+Pulau Penang: 18722
+Sarawak: 26032
+Kuala Lumpur: 41212
+Johor: 43872
+Sabah: 57324
+Selangor: 125744
