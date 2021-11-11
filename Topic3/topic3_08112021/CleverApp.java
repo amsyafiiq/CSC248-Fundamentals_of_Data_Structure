@@ -18,7 +18,7 @@ public class CleverApp {
         head = node;                           // Head = "C"
 
         node = new Node<>("R");                // Node = "R" C E V R
-        tail.next = node;                      // tail.next = "R"
+        //tail.next = node;                      // tail.next = "R"
         tail = node;                           // tail = "R"
 
         node = new Node<>("E");                // Node = "E", C E V E R
