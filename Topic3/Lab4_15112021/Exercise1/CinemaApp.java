@@ -1,9 +1,8 @@
+package Exercise1;
 /*
 Cinema Application
 */
 import java.util.*;
-import topic3.lab4_E1.Cinema;
-import topic3.lab4_E1.LinkedList;
 
 public class CinemaApp {
     public static void main(String[] args) {
@@ -11,7 +10,7 @@ public class CinemaApp {
         Scanner inputNum =  new Scanner(System.in);
         Scanner inputText = new Scanner(System.in);
         LinkedList CinemaLL = new LinkedList();
-        for (int i=0; i<1; i++) {
+        for (int i=0; i<3; i++) {
             System.out.println("Enter cinema code, i.e. Ha111, Ha112:"); 
             String cc = inputText.nextLine();
             System.out.println("Enter movie title:");
@@ -62,13 +61,9 @@ public class CinemaApp {
         Cinema value = CinemaLL.getFirst(); */
 
         CinemaLL.insertAtFront(new Cinema("Ha111", "Taubat di Hujung Nyawa", 24.5, "credit card", true));
-        Cinema value = CinemaLL.getFirst();
-        /* while (value != null) {
-            System.out.println(value.toString());
-            value = CinemaLL.getNext();
-        } */
-        
+
         //b) input 2 more value into the linked list
+        System.out.println("\nEnter two more value:-");
         for (int i=0; i<2; i++) {
             System.out.println("Enter cinema code, i.e. Ha111, Ha112:"); 
             String cc = inputText.nextLine();
@@ -91,10 +86,11 @@ public class CinemaApp {
         inputText.close(); inputNum.close();
 
         //c) display the the count of data in the cinema linked list
-        value = CinemaLL.getFirst();
+        Cinema value = CinemaLL.getFirst();
         int i = 0;
         while (value != null) {
-            value = CinemaLL.getNext(); i++;
+            i++;
+            value = CinemaLL.getNext();
         }
         System.out.println("COUNT: " + i);
 
@@ -119,6 +115,7 @@ public class CinemaApp {
         System.out.println("Total of Members: " + members);
 
         //f) display the details movie
+        System.out.println("\nMovie Details:-");
         value = CinemaLL.getFirst();
         while (value != null) {
             System.out.println(value.toString());
