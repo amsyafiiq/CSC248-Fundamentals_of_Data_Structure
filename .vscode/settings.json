@@ -1,4 +1,5 @@
 {
+    
     "java.project.sourcePaths": [
         "lab3_01112021",
         "Topic3/topic3_08112021",
@@ -12,6 +13,9 @@
         "assessment/test1_10112021",
         "assessment\\test1_10112021",
         "sample",
-        "Topic3\\topic3_10112021"
-    ]
+        "Topic3\\topic3_10112021",
+        "Topic3\\Lab4_15112021",
+        "misc"
+    ],
+    "files.autoSave": "onFocusChange"
 }

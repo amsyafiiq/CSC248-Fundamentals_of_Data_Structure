@@ -3,6 +3,7 @@
  */
 //import java.util.LinkedList;
 import java.util.Scanner;
+import topic3.universal_LLnNode.LinkedList;
 
 public class LinkedListApp {
     public static void main(String[] args){

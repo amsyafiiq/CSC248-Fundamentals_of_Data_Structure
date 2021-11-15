@@ -1,3 +1,5 @@
+import topic3.universal_LLnNode.Node;
+
 /**
  * Write a node application that will initialize the node A K S U and arrange into words S U K A
  */
