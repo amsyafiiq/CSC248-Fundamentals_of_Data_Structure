@@ -26,7 +26,7 @@ public class LinkedListApp {
         // Insert number 3 at the back
         intList.addLast(3);
 
-        // Remove the first element
+        // Remove the first elements
         intList.removeFirst();
 
         // Display the content of LinkedList, calculate average and sum of even value
