@@ -1,4 +1,4 @@
-import topic3.universal_LLnNode.Node;
+import universal_LLnNode.Node;
 
 /**
  * Write a node application that will initialize the node V E C R E L and arrange into words C L E V E R
