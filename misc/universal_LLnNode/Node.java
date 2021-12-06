@@ -10,6 +10,6 @@ public class Node<E> {
 	public Node<E> next;
 	
 	public Node(E e) { 
-		element = e; 
+		element = e;
 	}
 }

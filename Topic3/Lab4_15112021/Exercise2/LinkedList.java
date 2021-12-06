@@ -1,8 +1,5 @@
 package Exercise2;
 
-/**
- * LinkedList class for Debtor class
- */
 public class LinkedList {
     private Node first, last, current;
     

@@ -1,5 +1,4 @@
-import universal_LLnNode.LinkedList;
-
+package universal_LLnNode;
 /***
 Coder: Roslan S, UiTM Pahang, roslancs@uitm.edu.my
 Year: 2012
