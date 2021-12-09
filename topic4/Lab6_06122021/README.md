@@ -4,13 +4,13 @@ A Go-Kart Operator uses a Queue to store the data of Go-kart customers. The foll
 
 ```
 public class GoKart {
-	private String name;  //customer name
-	private String typeOfCar; //couple or single seat
-	private String strokeEngine; //200cc or 150cc
-	private  int option; 	//1- quick experience
-						    //2- race adventure
-	private int numberOfLaps; 
-	private boolean safetySet;//true if choose safety set
+    private String name;  //customer name
+    private String typeOfCar; //couple or single seat
+    private String strokeEngine; //200cc or 150cc
+    private  int option; 	//1- quick experience
+                            //2- race adventure
+    private int numberOfLaps; 
+    private boolean safetySet;//true if choose safety set
 
     public GoKart(String name, String type,String stroke,int option,int numLap,boolean safetySet)
     public String getName() {..}
