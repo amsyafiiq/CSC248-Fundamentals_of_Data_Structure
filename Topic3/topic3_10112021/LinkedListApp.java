@@ -1,7 +1,3 @@
-/**
- * LinkedListApp
- */
-//import java.util.LinkedList;
 import java.util.Scanner;
 import universal_LLnNode.LinkedList;
 

@@ -1,5 +1,3 @@
-package Exercise1;
-
 public class Invoice {
     private int orderID, prodQuantity;
     private String custName, prodName;
