@@ -16,7 +16,13 @@ public class Exercise1 {
                 sList.add(aList.get(i));
             }
         }
-        aList.removeAll(sList);
+
+        for (int i = 0; i < aList.size(); i++) {
+            if (aList.get(i) == sList.get(i)) {
+                aList.remove(i);
+            }
+        }
+        // aList.removeAll(sList);
 
         System.out.println("\naList = " + aList.toString());
         System.out.println("sList = " + sList.toString());
