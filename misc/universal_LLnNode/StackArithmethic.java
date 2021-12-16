@@ -10,23 +10,26 @@ public class StackArithmethic {
         Stack<String> value = new Stack<String>();
         String input = null;
 
-        while (input != "-1") {
+        do {
             System.out.print("Push >> ");
             input = txtScn.nextLine();
 
             if (isNumeric(input)) {
                 value.push(input);
-            } else if (input == "+" || input == "-" || input == "*" || input == "/" || input == "$") {
-                int number1 = Integer.parseInt(value.pop());
+            } else if (input.equals("+") || input.equals("-") || input.equals("*") || input.equals("/")
+                    || input.equals("$")) {
                 int number2 = Integer.parseInt(value.pop());
+                int number1 = Integer.parseInt(value.pop());
 
+                // System.out.println(number1 + " " + number2);
                 value.push(calc(number1, number2, input));
-            } else if (input == "-1") {
-                break;
+                // System.out.println(calc(number1, number2, input));
             } else {
                 System.out.println("-- Invalid Input --");
             }
-        }
+
+            System.out.println("Value inside stack: " + value.toString());
+        } while (!input.equals("-1"));
         txtScn.close();
 
         System.out.println("Answer is " + value.pop());
@@ -41,6 +44,10 @@ public class StackArithmethic {
 
         try {
             int i = Integer.parseInt(number);
+
+            if (i == -1) {
+                return false;
+            }
         } catch (NumberFormatException e) {
             return false;
         }
@@ -48,20 +55,19 @@ public class StackArithmethic {
     }
 
     public static String calc(int x, int y, String operand) {
-        String ansString = "-1";
+        String ansString = null;
         int ans = 0;
 
-        switch (operand) {
-            case "+":
-                ans = x + y;
-            case "-":
-                ans = x - y;
-            case "*":
-                ans = x * y;
-            case "/":
-                ans = x / y;
-            case "$":
-                ans = (int) Math.pow(x, y);
+        if (operand.equals("+")) {
+            ans = x + y;
+        } else if (operand.equals("-")) {
+            ans = x - y;
+        } else if (operand.equals("*")) {
+            ans = x * y;
+        } else if (operand.equals("/")) {
+            ans = x / y;
+        } else {
+            ans = (int) Math.pow(x, y);
         }
         ansString = ans + "";
         return ansString;
