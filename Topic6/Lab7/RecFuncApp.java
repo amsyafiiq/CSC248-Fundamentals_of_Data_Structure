@@ -4,11 +4,16 @@ public class RecFuncApp {
     public static void main(String[] args) {
         Scanner numScn = new Scanner(System.in);
 
-        int x = numScn.nextInt();
-        int y = numScn.nextInt();
-        numScn.close();
+        /*
+         * int x = numScn.nextInt();
+         * int y = numScn.nextInt();
+         * numScn.close();
+         */
 
-        System.out.println(f(x, y));
+        // int ans = f(x, y);
+        System.out.println(f(5, 0));
+
+        // System.out.println(ans);
     }
 
     public static int f(int x, int y) {
