@@ -1,0 +1,5 @@
+Air Conditioner,3250
+Ceiling Fan,120
+Gaming Desktop Computer,500
+Microwave,1000
+Plasma TV,200
